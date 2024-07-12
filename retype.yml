@@ -1,0 +1,11 @@
+input: .
+output: .retype
+url: # Add your website address here
+branding:
+  title: Tim Unger
+  label: Homepage
+links:
+- text: GitHub
+  link: https://github.com/Tim-Unger
+footer:
+  copyright: "Licensed under the MIT License (if you want to use this for whatever reason)"
