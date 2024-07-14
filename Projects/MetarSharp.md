@@ -4,17 +4,27 @@
 
 **Library that is able to parse almost every metar, also allows creation of a JSON and Readable Report**
 
+
+### Using C#
 ```cs
 using MetarSharp;
 
 [...]
 
+var metarList = new List<string>(){firstMetarString, secondMetarString, ...};
+
 var metar = ParseMetar.FromString("EDDF 121950Z AUTO 28012KT 9999 FEW045 17/12 Q1011 NOSIG");
 
-var json = metar.ToJson();
+var metars = ParseMetar.FromList(metarList);
+```
 
-//Result
-/*
+### You can also call my API
+
+```bash
+curl api.tim-u.me/metar/<icao>/decode
+```
+Result:
+```
 [
   {
     "metarRaw": "EDDF 121950Z AUTO 28012KT 9999 FEW045 17/12 Q1011 NOSIG",
@@ -35,5 +45,4 @@ runwayConditions": null,
 [...]
   }
 ]
-*/
 ```

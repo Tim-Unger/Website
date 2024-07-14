@@ -3,7 +3,7 @@ output: .retype
 url: # Add your website address here
 branding:
   title: Tim Unger
-  label: Homepage
+  label: Docs
 links:
 - text: GitHub
   link: https://github.com/Tim-Unger
