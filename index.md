@@ -8,16 +8,6 @@
 
 I am only programming as a hobby, so don't expect good code
 
-## Tech Stack / Experience
-
-C#/.NET: 🟢🟢🟢🟢🟢🟢⬛⬛⬛⬛
-
-Docker: 🟢🟢🟢🟢⬛⬛⬛⬛⬛⬛
-
-General Linux Stuff:  🟢🟢🟢🟢⬛⬛⬛⬛⬛⬛
-
-Postgres: 🟢🟢⬛⬛⬛⬛⬛⬛⬛⬛
-
 # Projects
 
 ### MetarSharp
